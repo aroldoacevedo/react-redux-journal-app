@@ -23,7 +23,15 @@ export const startGoogleLogin = () => {
         
     };
 }
-
+/*
+const action = {
+    type: types.login,
+    payload: {
+        uid,
+        displayName
+    }
+}
+*/
 export const login = (uid, displayName) => ({
     type: types.login,
     payload: {
